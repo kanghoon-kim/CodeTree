@@ -1,0 +1,5 @@
+c_time = input()
+iter = c_time.split(":")
+h = int(iter[0])
+m = int(iter[1])
+print(f"{h+1}:{m}")
