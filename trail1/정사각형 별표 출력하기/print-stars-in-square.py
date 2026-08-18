@@ -1,3 +1,5 @@
 N = int(input())
 for i in range(N):
-    print("*"*N)
+    for j in range(N):
+        print("*", end="")
+    print("",end="\n")
